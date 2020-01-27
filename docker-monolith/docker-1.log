@@ -1,0 +1,4 @@
+REPOSITORY                   TAG                 IMAGE ID            CREATED              SIZE
+alexgres48/ubuntu-tmp-file   latest              6f6a5e21c534        About a minute ago   124MB
+ubuntu                       16.04               96da9143fb18        5 days ago           124MB
+hello-world                  latest              fce289e99eb9        12 months ago        1.84kB
