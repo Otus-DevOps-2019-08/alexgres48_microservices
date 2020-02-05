@@ -77,3 +77,9 @@ https://hub.docker.com/u/alexgres48
 3) Настройка фильтрации логов
 4) Подключение Zipkin
 
+################################
+
+#Homework 25 Введение в Kubernetes.
+
+Установка kubernates The_Hard_way
+
