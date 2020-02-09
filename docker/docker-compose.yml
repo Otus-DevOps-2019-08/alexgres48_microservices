@@ -10,7 +10,7 @@ services:
           - comment_db
           - post_ db
   ui:
-    image: ${USERNAME}/ui:${VERSION_UI}
+    image: ${USER_NAME}/ui:${VERSION_UI}
     ports:
       - ${PORT}:${PORT}/tcp
     networks:
@@ -25,7 +25,7 @@ services:
     environment:
       - ZIPKIN_ENABLED=${ZIPKIN_ENABLED}
   post:
-    image: ${USERNAME}/post:${VERSION_POST}
+    image: ${USER_NAME}/post:${VERSION_POST}
     networks:
       - back_net
       - front_net
@@ -37,7 +37,7 @@ services:
     environment:
       - ZIPKIN_ENABLED=${ZIPKIN_ENABLED}
   comment:
-    image: ${USERNAME}/comment:${VERSION_COMMENT}
+    image: ${USER_NAME}/comment:${VERSION_COMMENT}
     networks:
       - back_net
       - front_net

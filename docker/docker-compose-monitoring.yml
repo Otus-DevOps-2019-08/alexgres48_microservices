@@ -1,7 +1,7 @@
 version: '3.3'
 services:
   prometheus:
-    image: ${USERNAME}/prometheus:${VERSION_PROMETH}
+    image: ${USER_NAME}/prometheus:${VERSION_PROMETH}
     networks:
       - back_net
       - front_net
