@@ -52,11 +52,8 @@ networks:
     driver: bridge
     ipam:
       driver: default
-      config:
-        - subnet: "${BACK_NET_IP}"
+
   front_net:
     driver: bridge
     ipam:
       driver: default
-      config:
-        - subnet: "${FRONT_NET_IP}"

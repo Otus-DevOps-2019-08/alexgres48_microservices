@@ -13,6 +13,10 @@ services:
       - '--config.file=/etc/prometheus/prometheus.yml'
       - '--storage.tsdb.path=/prometheus'
       - '--storage.tsdb.retention=1d'
+    networks:
+      - back_net
+      - front_net
+  
   node-exporter:
     image: prom/node-exporter:v0.15.2
     user: root
@@ -73,11 +77,8 @@ networks:
     driver: bridge
     ipam:
       driver: default
-      config:
-        - subnet: "${BACK_NET_IP}"
+ 
   front_net:
     driver: bridge
     ipam:
       driver: default
-      config:
-        - subnet: "${FRONT_NET_IP}"
