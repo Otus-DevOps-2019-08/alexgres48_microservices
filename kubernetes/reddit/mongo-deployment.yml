@@ -1,3 +1,4 @@
+
 ---
 apiVersion: apps/v1beta2
 kind: Deployment
@@ -16,7 +17,7 @@ spec:
   template:
     metadata:
       name: mongo
-      lables:
+      labels:
         app: reddit
         component: mongo
         comment-db: "true"
@@ -30,3 +31,4 @@ spec:
       volumes:
       - name: mongo-persistent-storage
         emptyDir: {}
+  
