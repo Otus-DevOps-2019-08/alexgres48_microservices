@@ -83,3 +83,13 @@ https://hub.docker.com/u/alexgres48
 
 Установка kubernates The_Hard_way
 
+
+################################
+
+#Homework 26 Основные модели безопасности и контроллеры в Kubernetes 
+
+1) Установка minikube 
+2) Установка kubectl
+3) Локальный кластер
+4) GKE
+
