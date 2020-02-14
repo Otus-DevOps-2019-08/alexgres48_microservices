@@ -92,4 +92,11 @@ https://hub.docker.com/u/alexgres48
 2) Установка kubectl
 3) Локальный кластер
 4) GKE
+#Homework 27 Ingress-контроллеры и сервисы в Kubernetes.
 
+1) Настройка LoadBalancer
+2) Настройка Ingress
+3) Настройка TLS
+4) Настройка network-policy
+5) Настройка Volume
+6) Настроено динамическое выделение Volume'ов
