@@ -100,3 +100,11 @@ https://hub.docker.com/u/alexgres48
 4) Настройка network-policy
 5) Настройка Volume
 6) Настроено динамическое выделение Volume'ов
+
+#Homework 28 Интеграция Kubernetes в GitlabCI
+
+1) Настройка Helm
+2) Конфигурирование chart
+3) Разворачивание GitLab CI
+4) Работа GitlabCI Kubernetes
+
