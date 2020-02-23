@@ -108,3 +108,7 @@ https://hub.docker.com/u/alexgres48
 3) Разворачивание GitLab CI
 4) Работа GitlabCI Kubernetes
 
+#Homework 29 Kubernetes. Мониторинг и логирование
+
+1) Раскат Prometheus
+2) Сбор метрик
